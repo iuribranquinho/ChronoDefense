@@ -1,0 +1,83 @@
+# ============================================================
+# Chrono Defense — .gitignore (Unity 6)
+# ============================================================
+
+# ---- Pastas que o Unity recria sozinho
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Pasta de assets gerada pelo Asset Store Tools / Addressables (build local)
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/StreamingAssets/aa*
+/ServerData/
+
+# ---- Projetos/soluções gerados pela IDE (o Unity recria)
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+*.DotSettings.user
+
+# ---- Arquivos de build / crash
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+crashlytics-build.properties
+sysinfo.txt
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+
+# ---- Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# ---- Segredos (chaves de API, tokens) — NUNCA sobem
+.env
+.env.*
+*.env
+*secret*
+*secrets*
+*api_key*
+*apikey*
+*.pem
+*.key
+
+# ---- Pipeline de arte (Tools/): só os scripts e a documentação sobem
+Tools/__pycache__/
+Tools/**/__pycache__/
+*.pyc
+Tools/Hunyuan3D/
+Tools/TripoSR/
+Tools/output/
+Tools/refs/
+# Relatório do Tripo pode conter links de download assinados
+Tools/tripo/relatorio_tripo.json
+
+# Modelos brutos dos heróis (fonte pesada; os modelos usados no jogo ficam em Assets/_ChronoDefense/Art)
+/Herois_Poses_Separadas/

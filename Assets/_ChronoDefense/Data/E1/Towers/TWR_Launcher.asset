@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d575782605e72d409baf4b63b60f45f, type: 3}
+  m_Name: TWR_Launcher
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.TowerDataSO
+  Id: 2
+  Archetype: 1
+  BaseCost: 150
+  DamageType: 0
+  Damage: 40
+  Interval: 2.2
+  Range: 8
+  SplashRadius: 1.5
+  HitsFlying: 0
+  DetectsCamo: 0
+  SoldierCount: 0
+  SoldierHp: 0
+  SoldierDamage: 0
+  SoldierInterval: 0
+  Paths:
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers:
+      - Stat: 0
+        Op: 0
+        Value: 15
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers:
+      - Stat: 0
+        Op: 0
+        Value: 20
+      - Stat: 3
+        Op: 0
+        Value: 0.3
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers: []
+      OnHitEffects:
+      - Type: 1
+        DamageType: 1
+        Magnitude: 5
+        Duration: 3
+        TickInterval: 0.5
+        BossMultiplier: 1
+        RequiresTraits: 0
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers: []
+      OnHitEffects:
+      - Type: 1
+        DamageType: 1
+        Magnitude: 12
+        Duration: 3
+        TickInterval: 0.5
+        BossMultiplier: 1
+        RequiresTraits: 0
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers: []
+      OnHitEffects:
+      - Type: 4
+        DamageType: 0
+        Magnitude: 0.6
+        Duration: 0
+        TickInterval: 0
+        BossMultiplier: 0.25
+        RequiresTraits: 0
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers: []
+      OnHitEffects:
+      - Type: 4
+        DamageType: 0
+        Magnitude: 0.8
+        Duration: 0
+        TickInterval: 0
+        BossMultiplier: 0.25
+        RequiresTraits: 0
+      - Type: 3
+        DamageType: 0
+        Magnitude: 0
+        Duration: 0.3
+        TickInterval: 0
+        BossMultiplier: 0.5
+        RequiresTraits: 0
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d575782605e72d409baf4b63b60f45f, type: 3}
+  m_Name: TWR_Alchemist
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.TowerDataSO
+  Id: 3
+  Archetype: 2
+  BaseCost: 140
+  DamageType: 1
+  Damage: 30
+  Interval: 1.4
+  Range: 8
+  SplashRadius: 0
+  HitsFlying: 1
+  DetectsCamo: 0
+  SoldierCount: 0
+  SoldierHp: 0
+  SoldierDamage: 0
+  SoldierInterval: 0
+  Paths:
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  - Name:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Tiers:
+    - CostMultiplier: 0.6
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 1
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 2
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 5
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+    - CostMultiplier: 15
+      Modifiers: []
+      OnHitEffects: []
+      GrantsCamoDetection: 0
+      SocketAccessory: 
+  references:
+    version: 2
+    RefIds: []

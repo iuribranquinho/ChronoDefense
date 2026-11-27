@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3818a9ebbf42c8b4aa4cff7f902786f6, type: 3}
+  m_Name: LVL_TEST_Prado
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.LevelDataSO
+  GlobalIndex: 31
+  Era: {fileID: 11400000, guid: ceb3f29477258f44d8cacc43be0dd341, type: 2}
+  Layout: {fileID: 11400000, guid: 8118228fec6662645bb31a66925656eb, type: 2}
+  Waves:
+  - {fileID: 11400000, guid: 690e660c4d22102469e77ffa80734518, type: 2}
+  - {fileID: 11400000, guid: da6d0ab2ef8ef654b8abc1edddd3167b, type: 2}
+  - {fileID: 11400000, guid: 6dca0a7764806fb44bd52f6a6b6a09f0, type: 2}
+  - {fileID: 11400000, guid: 63f74ecbfbec32d479a7c70cdb07d629, type: 2}
+  - {fileID: 11400000, guid: e41cb5e94ca8c5a4c8820c080f48936e, type: 2}
+  - {fileID: 11400000, guid: b48c470697370db4cbad6f16ac1b14ba, type: 2}
+  - {fileID: 11400000, guid: adcd1af603b3d64409c14246bc026d0d, type: 2}
+  - {fileID: 11400000, guid: 1c5efabd71fe50b4d9659feebfca317c, type: 2}
+  - {fileID: 11400000, guid: f073efe198915434886dc318bd564b79, type: 2}
+  - {fileID: 11400000, guid: 0bc486558fc242b4c85a96352953e5f9, type: 2}
+  - {fileID: 11400000, guid: 9d452ab2a5e947849ae8668495af0c79, type: 2}
+  - {fileID: 11400000, guid: 2dcd9a160b4273a45bf9792d50602f5e, type: 2}
+  Boss: {fileID: 0}
+  StartGoldOverride: 650
+  Lives: 20
+  UnlocksHero: {fileID: 0}
+  Rewards:
+    AccountGold: 0
+    AccountXp: 0
+    UnlocksTower: {fileID: 0}
+    HeroFragments: 0
+    CosmeticId: 0

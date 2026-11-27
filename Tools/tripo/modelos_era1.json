@@ -1,0 +1,105 @@
+{
+  "_sobre": "Modelos 3D da Era 1 (Tundra) para gerar no Tripo3D. Lido por Tools/tripo/TAREFA_TRIPO.md. Caminhos e medidas iguais a ModelPrefabBuilder.Entries.",
+  "estilo_comum": "stylized hand-painted cartoon style of a colorful mobile tower defense game, chunky readable silhouette, slightly oversized head and hands, vibrant saturated colors, soft painted shading, clean simple shapes, single game-ready asset, no ground, no base, no background",
+  "negativo_comum": "realistic, photorealistic, gore, blood, text, letters, logo, watermark, ground plane, floor, pedestal base, multiple characters, cropped, deformed, extra limbs",
+  "corrupcao": "glowing magenta eyes and thin violet-magenta glowing cracks (corrupted by a time-eating force)",
+  "parametros_tripo": { "texture": true, "pbr": true, "texture_quality": "detailed", "texture_size": 2048, "formato": "glb" },
+  "modelos": [
+    {
+      "id": "BOS_010_MammothAlpha", "categoria": "chefe",
+      "saida": "Assets/_ChronoDefense/Art/Bosses/BOS_010_MammothAlpha.glb",
+      "normalizar": "--height 2.4", "face_limit": 12000, "frente": "+Z, olhando para frente, andando",
+      "prompt": "giant alpha woolly mammoth boss, massive shaggy brown fur, huge curved ivory tusks, thick plates of blue glacial ice armor on its back and forehead, frost on the fur, {corrupcao}, standing on four legs facing forward, menacing but family friendly, {estilo_comum}"
+    },
+    {
+      "id": "CRP_E1_GreyWolf", "categoria": "inimigo",
+      "saida": "Assets/_ChronoDefense/Art/Creeps/E1/CRP_E1_GreyWolf.glb",
+      "normalizar": "--height 0.9", "face_limit": 6000, "frente": "+Z",
+      "prompt": "prehistoric grey wolf, lean body, thick grey and white winter fur, bared fangs, {corrupcao}, standing on four legs facing forward, {estilo_comum}"
+    },
+    {
+      "id": "CRP_E1_SabreTiger", "categoria": "inimigo",
+      "saida": "Assets/_ChronoDefense/Art/Creeps/E1/CRP_E1_SabreTiger.glb",
+      "normalizar": "--height 1.0", "face_limit": 6000, "frente": "+Z",
+      "prompt": "sabre-toothed tiger smilodon, muscular orange and cream fur with dark stripes, two long sabre fangs, {corrupcao}, standing on four legs facing forward, {estilo_comum}"
+    },
+    {
+      "id": "CRP_E1_WoollyRhino", "categoria": "inimigo",
+      "saida": "Assets/_ChronoDefense/Art/Creeps/E1/CRP_E1_WoollyRhino.glb",
+      "normalizar": "--height 1.3", "face_limit": 6000, "frente": "+Z",
+      "prompt": "woolly rhinoceros, bulky armored body with thick reddish-brown shaggy fur, one huge front horn and a smaller second horn, {corrupcao}, standing on four legs facing forward, {estilo_comum}"
+    },
+    {
+      "id": "TWR_E1_Marksman", "categoria": "torre (Atirador, Era 1)",
+      "saida": "Assets/_ChronoDefense/Art/Towers/E1/TWR_E1_Marksman.glb",
+      "normalizar": "--height 1.8", "face_limit": 8000, "frente": "+Z",
+      "prompt": "prehistoric spear hunter tower defender, caveman warrior in fur clothes standing on a small lookout of lashed logs and mammoth bones, holding a spear-thrower atlatl ready to throw a flint spear, bone necklace, blue tribal face paint, facing forward, {estilo_comum}"
+    },
+    {
+      "id": "TWR_E1_Launcher", "categoria": "torre (Lançador, Era 1)",
+      "saida": "Assets/_ChronoDefense/Art/Towers/E1/TWR_E1_Launcher.glb",
+      "normalizar": "--height 1.8", "face_limit": 8000, "frente": "+Z",
+      "prompt": "primitive stone catapult tower, rustic wooden throwing arm tied with leather ropes, sling basket loaded with a big round boulder, mammoth tusks as supports, pile of rocks beside it, facing forward, {estilo_comum}"
+    },
+    {
+      "id": "TWR_E1_Alchemist", "categoria": "torre (Alquimista, Era 1)",
+      "saida": "Assets/_ChronoDefense/Art/Towers/E1/TWR_E1_Alchemist.glb",
+      "normalizar": "--height 1.8", "face_limit": 8000, "frente": "+Z",
+      "prompt": "prehistoric tribal shaman tower, old shaman in antler headdress and fur cloak holding a carved bone staff with a glowing blue crystal, small stone cauldron with bubbling glowing blue potion and smoke, facing forward, {estilo_comum}"
+    },
+    {
+      "id": "TWR_E1_Guard", "categoria": "torre (Guarda, Era 1)",
+      "saida": "Assets/_ChronoDefense/Art/Towers/E1/TWR_E1_Guard.glb",
+      "normalizar": "--height 1.8", "face_limit": 8000, "frente": "+Z",
+      "prompt": "sturdy caveman guardian warrior, broad shoulders, fur armor and leather straps, round wooden shield covered with hide, big stone club, defensive stance, facing forward, {estilo_comum}"
+    },
+    {
+      "id": "ENV_E1_Pedestal", "categoria": "cenário (pedestal das torres)",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_Pedestal.glb",
+      "normalizar": "--width 2.8", "face_limit": 2000, "frente": "simétrico",
+      "prompt": "round low stone platform for a tower defense game, ring of chunky grey stone blocks around a darker flat stone center, a little snow on the edges, top view friendly, very low and wide (height about one fifth of its width), stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_KrogCave", "categoria": "cenário (covil / saída dos inimigos)",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_KrogCave.glb",
+      "normalizar": "--width 7.0", "face_limit": 12000, "frente": "+Z (boca da caverna para frente)",
+      "prompt": "big ice cave entrance carved in a snowy rock hill, wide dark arched opening big enough for a mammoth, blue ice stalactites hanging over the entrance, snow on top, faint warm orange firelight deep inside, opening facing forward, stylized hand-painted cartoon style of a colorful mobile tower defense game, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_ChronoCore", "categoria": "cenário (base do jogador)",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_ChronoCore.glb",
+      "normalizar": "--height 3.0", "face_limit": 6000, "frente": "+Z",
+      "prompt": "magical time core monument, a large glowing golden hourglass with swirling blue time sand inside, held by a rough stone and bone frame decorated with tribal carvings, small glowing runes around the base, facing forward, stylized hand-painted cartoon style of a colorful mobile tower defense game, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_MammothSkeleton", "categoria": "prop",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_MammothSkeleton.glb",
+      "normalizar": "--width 7.0", "face_limit": 5000, "frente": "+Z",
+      "prompt": "ancient woolly mammoth skeleton lying half buried, big skull with long curved tusks, rib cage, scattered bones, a little snow on the bones, stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_Campfire", "categoria": "prop",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_Campfire.glb",
+      "normalizar": "--width 1.6", "face_limit": 2000, "frente": "simétrico",
+      "prompt": "small prehistoric campfire, ring of round stones, crossed burning logs, bright stylized orange and yellow flames, stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_SnowyPine", "categoria": "prop (borda do mapa)",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_SnowyPine.glb",
+      "normalizar": "--height 7.0", "face_limit": 3000, "frente": "simétrico",
+      "prompt": "tall snowy pine tree, layered dark green branches heavy with soft snow, short brown trunk, stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_Rock", "categoria": "prop",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_Rock.glb",
+      "normalizar": "--width 2.5", "face_limit": 1500, "frente": "simétrico",
+      "prompt": "cluster of chunky grey-blue boulders with snow caps and a little moss, stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    },
+    {
+      "id": "ENV_E1_IceBlock", "categoria": "prop",
+      "saida": "Assets/_ChronoDefense/Art/Environment/E1_Tundra/ENV_E1_IceBlock.glb",
+      "normalizar": "--width 3.0", "face_limit": 2000, "frente": "simétrico",
+      "prompt": "cluster of translucent light-blue glacier ice blocks with sharp faceted edges and snow on top, stylized hand-painted cartoon style, vibrant colors, single asset, no background"
+    }
+  ]
+}

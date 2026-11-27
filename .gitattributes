@@ -1,0 +1,49 @@
+# ============================================================
+# Chrono Defense — .gitattributes
+# Arquivos binários grandes vão pelo Git LFS (instale: https://git-lfs.com e rode "git lfs install" uma vez).
+# ============================================================
+
+# Texto: fim de linha normalizado
+*.cs        text eol=lf diff=csharp
+*.md        text eol=lf
+*.py        text eol=lf
+*.ps1       text eol=crlf
+*.json      text eol=lf
+*.shader    text eol=lf
+*.hlsl      text eol=lf
+*.asmdef    text eol=lf
+
+# Arquivos do Unity em YAML: texto, mesclagem com o UnityYAMLMerge (Smart Merge)
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.anim      text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf merge=unityyamlmerge
+
+# Imagens
+*.png       filter=lfs diff=lfs merge=lfs -text
+*.jpg       filter=lfs diff=lfs merge=lfs -text
+*.jpeg      filter=lfs diff=lfs merge=lfs -text
+*.psd       filter=lfs diff=lfs merge=lfs -text
+*.tga       filter=lfs diff=lfs merge=lfs -text
+*.exr       filter=lfs diff=lfs merge=lfs -text
+*.hdr       filter=lfs diff=lfs merge=lfs -text
+
+# Modelos 3D
+*.glb       filter=lfs diff=lfs merge=lfs -text
+*.gltf      filter=lfs diff=lfs merge=lfs -text
+*.fbx       filter=lfs diff=lfs merge=lfs -text
+*.obj       filter=lfs diff=lfs merge=lfs -text
+*.blend     filter=lfs diff=lfs merge=lfs -text
+
+# Áudio e vídeo
+*.wav       filter=lfs diff=lfs merge=lfs -text
+*.mp3       filter=lfs diff=lfs merge=lfs -text
+*.ogg       filter=lfs diff=lfs merge=lfs -text
+*.mp4       filter=lfs diff=lfs merge=lfs -text
+
+# Fontes
+*.ttf       filter=lfs diff=lfs merge=lfs -text
+*.otf       filter=lfs diff=lfs merge=lfs -text

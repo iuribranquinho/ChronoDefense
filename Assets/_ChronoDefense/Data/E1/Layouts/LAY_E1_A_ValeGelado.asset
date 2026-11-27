@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b6727ad8921a64c8db807760b24466, type: 3}
+  m_Name: LAY_E1_A_ValeGelado
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.LevelLayoutSO
+  Id: 111
+  DisplayName: Vau do Rio
+  PathPolyline:
+  - {x: -36, y: 0, z: 12}
+  - {x: 18, y: 0, z: 12}
+  - {x: 18, y: 0, z: 0}
+  - {x: -18, y: 0, z: 0}
+  - {x: -18, y: 0, z: -12}
+  - {x: 36, y: 0, z: -12}
+  PathWidth: 3.5
+  Pedestals:
+  - {x: 12.8, y: 0, z: 6.3}
+  - {x: -12.7, y: 0, z: -5.7}
+  - {x: 14.3, y: 0, z: -5.2}
+  - {x: 7.3, y: 0, z: -5.2}
+  - {x: 5.3, y: 0, z: 6.8}
+  - {x: -1.7, y: 0, z: 6.8}
+  - {x: -2.2, y: 0, z: -5.2}
+  - {x: -9.2, y: 0, z: 5.3}
+  LairPosition: {x: -36, y: 0, z: 12}
+  CorePosition: {x: 36, y: 0, z: -12}
+  ShowLairAndCore: 0
+  Ground: 0
+  CameraBounds:
+    m_Center: {x: 0, y: 0.5, z: 0}
+    m_Extent: {x: 22.5, y: 0.5, z: 16.5}
+  EnvironmentArt:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

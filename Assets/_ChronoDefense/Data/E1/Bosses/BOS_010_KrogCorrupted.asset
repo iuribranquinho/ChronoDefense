@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b73fce26dd26f34999ab0a43ecf08ad, type: 3}
+  m_Name: BOS_010_KrogCorrupted
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.BossDataSO
+  Id: 10010
+  BaseHp: 3000
+  Armor: 30
+  MagicResist: 20
+  Speed: 0.6
+  Traits: 2048
+  LeakWeight: 999
+  Mass: 200
+  VatMesh: {fileID: -780830572462372624, guid: 9151011c4642c0b44bb40a4141e39e6b, type: 3}
+  VatMaterial: {fileID: 2100000, guid: db2bc7efb9a55d54984017de03790e47, type: 2}
+  GoldOverride: 150
+  DisplayName:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  HpBase: 3000
+  Phases:
+  - HpThreshold: 1
+    Action: 1
+    Interval: 12
+    Value: 3
+    SummonType: {fileID: 0}
+    SummonCount: 0
+  - HpThreshold: 0.66
+    Action: 0
+    Interval: 0
+    Value: 0
+    SummonType: {fileID: 11400000, guid: 7e2f2f792ab80cb44ab065ee65e01ac3, type: 2}
+    SummonCount: 4
+  - HpThreshold: 0.33
+    Action: 0
+    Interval: 0
+    Value: 0
+    SummonType: {fileID: 11400000, guid: 7e2f2f792ab80cb44ab065ee65e01ac3, type: 2}
+    SummonCount: 4
+  ViewPrefab:
+    m_AssetGUID: 40e41f90601bc824d86ac50eba89c6da
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  LairPrefab:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Portrait:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  LairSignText:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

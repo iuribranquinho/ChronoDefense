@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3818a9ebbf42c8b4aa4cff7f902786f6, type: 3}
+  m_Name: LVL_008
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.LevelDataSO
+  GlobalIndex: 8
+  Era: {fileID: 11400000, guid: ceb3f29477258f44d8cacc43be0dd341, type: 2}
+  Layout: {fileID: 11400000, guid: ab1e450db8972df45a528e311bc07ace, type: 2}
+  Waves:
+  - {fileID: 11400000, guid: a8b47748c69e07c479627017b4d736c8, type: 2}
+  - {fileID: 11400000, guid: b0d6fda378252a544a7e60fb3819b911, type: 2}
+  - {fileID: 11400000, guid: 7eb90fe004b7f8040b6b5cd96549a0b8, type: 2}
+  - {fileID: 11400000, guid: b01dc8fcffadb1d4fa278c48a1a7c744, type: 2}
+  - {fileID: 11400000, guid: 1f17399ff91e2024fbca705bb610766b, type: 2}
+  - {fileID: 11400000, guid: 6e8e3d8948f7cd9488f3d36e83f15eb0, type: 2}
+  - {fileID: 11400000, guid: a6652182c12ba3a47b6905aeb06d7c6e, type: 2}
+  - {fileID: 11400000, guid: 54f1c9a6e5c25dc44bbeecc52481df26, type: 2}
+  - {fileID: 11400000, guid: 225242b7f01ea9e4bb79c00defc87aa2, type: 2}
+  - {fileID: 11400000, guid: af29559a3903c8148a44b253a586af59, type: 2}
+  - {fileID: 11400000, guid: 990a787f6bea47e4badebf5641d17d5a, type: 2}
+  - {fileID: 11400000, guid: 0df4aafb9ebc3b743ab1eb73fb95b0eb, type: 2}
+  - {fileID: 11400000, guid: 3441ef04697379e40ac69c369f183330, type: 2}
+  - {fileID: 11400000, guid: dbf284ab039d46e499d4ecb540a22eff, type: 2}
+  - {fileID: 11400000, guid: a3b15ea57c6e7a64195f4725946e74b2, type: 2}
+  - {fileID: 11400000, guid: 48cd53db3780b3a4eabeb0c10aed6f1f, type: 2}
+  Boss: {fileID: 0}
+  StartGoldOverride: -1
+  Lives: 20
+  Biome: 5
+  UnlocksHero: {fileID: 0}
+  Rewards:
+    AccountGold: 0
+    AccountXp: 0
+    UnlocksTower: {fileID: 0}
+    HeroFragments: 0
+    CosmeticId: 0

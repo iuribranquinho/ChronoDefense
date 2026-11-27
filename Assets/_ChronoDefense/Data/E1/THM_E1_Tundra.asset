@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729a16c8edc5a9043974643a96f372b5, type: 3}
+  m_Name: THM_E1_Tundra
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.EraBiomeThemeSO
+  Id: 1
+  EraIndex: 1
+  AccentRune: {r: 0.43529412, g: 0.827451, b: 1, a: 1}
+  ShadowTint: {r: 0.44941178, g: 0.5035294, b: 0.5411765, a: 1}
+  CorruptionTint: {r: 0.23137255, g: 0.11764706, b: 0.32941177, a: 1}
+  MainLightColor: {r: 1, g: 0.94509804, b: 0.8627451, a: 1}
+  MainLightIntensity: 1.1
+  MainLightEuler: {x: 50, y: 135, z: 0}
+  AmbientSky: {r: 0.7490196, g: 0.8392157, b: 0.9019608, a: 1}
+  AmbientEquator: {r: 0.9019608, g: 0.84705883, b: 0.7647059, a: 1}
+  AmbientGround: {r: 0.3529412, g: 0.2901961, b: 0.24313726, a: 1}
+  FogColor: {r: 0.8352941, g: 0.8901961, b: 0.9254902, a: 1}
+  FogStart: 40
+  FogEnd: 90
+  PostProcess:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Backdrop:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Pedestal:
+    m_AssetGUID: a3865fa601b0aaa4f86ca04279de1154
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  RuneDecal:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Portal:
+    m_AssetGUID: e9fb44038164d694a841d8f727bbfc96
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Core:
+    m_AssetGUID: b2b9b3a31d24df0488cfa0fe36047c10
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  Props:
+  - SubBiomeName: Tundra Gelada
+    FirstChapter: 1
+    LastChapter: 3
+    Entries: []
+  TowerSkins:
+  - Archetype: 0
+    BaseL1:
+      m_AssetGUID: 2a11fe1dfcddba54095a5fb778b65bf9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    PathL2: []
+    PathL3: []
+  - Archetype: 1
+    BaseL1:
+      m_AssetGUID: fe986e3ea7d32334c8cbbf19017f2fa2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    PathL2: []
+    PathL3: []
+  - Archetype: 2
+    BaseL1:
+      m_AssetGUID: 18e64c35ff0ebd2488a5130f37a2c859
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    PathL2: []
+    PathL3: []
+  - Archetype: 3
+    BaseL1:
+      m_AssetGUID: 1ce714cfa9c78c448bcb78b1d1f5da56
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    PathL2: []
+    PathL3: []
+  Music: {fileID: 0}

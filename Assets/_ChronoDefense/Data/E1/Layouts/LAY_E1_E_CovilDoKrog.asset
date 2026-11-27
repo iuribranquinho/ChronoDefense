@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b6727ad8921a64c8db807760b24466, type: 3}
+  m_Name: LAY_E1_E_CovilDoKrog
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.LevelLayoutSO
+  Id: 115
+  DisplayName: Covil do Krog
+  PathPolyline:
+  - {x: 36, y: 0, z: 16}
+  - {x: -18, y: 0, z: 16}
+  - {x: -18, y: 0, z: 6}
+  - {x: 18, y: 0, z: 6}
+  - {x: 18, y: 0, z: -4}
+  - {x: -18, y: 0, z: -4}
+  - {x: -18, y: 0, z: -14}
+  - {x: -36, y: 0, z: -14}
+  PathWidth: 3.5
+  Pedestals:
+  - {x: 12.3, y: 0, z: 1.3}
+  - {x: -11.7, y: 0, z: 11.8}
+  - {x: 15.3, y: 0, z: 10.8}
+  - {x: 8.3, y: 0, z: 12.3}
+  - {x: 5.3, y: 0, z: 2.3}
+  - {x: 1.3, y: 0, z: 10.3}
+  - {x: -1.7, y: 0, z: 0.8}
+  - {x: -8.7, y: 0, z: 1.8}
+  LairPosition: {x: 36, y: 0, z: 16}
+  CorePosition: {x: -36, y: 0, z: -14}
+  ShowLairAndCore: 0
+  Ground: 0
+  CameraBounds:
+    m_Center: {x: 0, y: 0.5, z: 1}
+    m_Extent: {x: 22.5, y: 0.5, z: 19.5}
+  EnvironmentArt:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

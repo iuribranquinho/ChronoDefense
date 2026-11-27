@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359c351b65d9f87408e6dacf135b06c4, type: 3}
+  m_Name: CRP_E1_WoollyRhino
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.EnemyDataSO
+  Id: 103
+  BaseHp: 450
+  Armor: 40
+  MagicResist: 0
+  Speed: 0.9
+  Traits: 0
+  LeakWeight: 1
+  Mass: 80
+  VatMesh: {fileID: 2881919831337679534, guid: 134d556da93480848b6c4cc1614af111, type: 3}
+  VatMaterial: {fileID: 2100000, guid: 088bb1d28cb998f4d969c67ab5c5f9b2, type: 2}
+  GoldOverride: -1

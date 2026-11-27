@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb6d438dc21ad49913b494bc11dde6, type: 3}
+  m_Name: SKL_01_CoordinatedFireHunt
+  m_EditorClassIdentifier: ChronoDefense.Data::ChronoDefense.Data.SkillDataSO
+  Id: 1
+  Cooldown: 30
+  CastTime: 0.3
+  Targeting: 0
+  Radius: 3
+  Length: 0
+  Duration: 6
+  Effects:
+  - Type: 1
+    DamageType: 1
+    Magnitude: 40
+    Duration: 6
+    TickInterval: 0.5
+    BossMultiplier: 1
+    RequiresTraits: 0
+  - Type: 19
+    DamageType: 0
+    Magnitude: 0.15
+    Duration: 0
+    TickInterval: 0
+    BossMultiplier: 1
+    RequiresTraits: 0
+  Vfx:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
